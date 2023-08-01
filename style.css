@@ -1,8 +1,41 @@
 body {
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
   font-weight: normal;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.card {
+  max-width: 250px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  /* display: flex; */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.image {
+  margin-top: 20px;
+  max-width: 30%;
+}
+
+.btn {
+  background-color: #000;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+  border-color: #000;
+  box-shadow: none;
+  width: 80%;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
